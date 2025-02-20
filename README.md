@@ -12,6 +12,15 @@ cd packages/my-addon
 pnpm addon g component hello-world --blueprint glimmer-strict
 ```
 
+# using test app
+```
+cd test-addon
+pnpm build
+cd test-app
+ember s
+```
+if i change the addon i need to run `pnpm build` at the root level again before test-app sees it.
+
 # test-addon
 
 ## Local development

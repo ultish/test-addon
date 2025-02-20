@@ -13,7 +13,9 @@ interface HelloWorldSignature {
 // eslint-disable-next-line ember/no-empty-glimmer-component-classes
 export default class HelloWorldComponent extends Component<HelloWorldSignature> {
   <template>
+    does this change ss
     <div class={{styles.container}}>
+      hello
       {{yield}}
     </div>
   </template>
