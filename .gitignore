@@ -1,0 +1,13 @@
+# compiled output
+dist/
+tmp/
+
+# dependencies
+node_modules/
+
+# misc
+.DS_Store
+.env*
+.eslintcache
+pnpm-debug.log
+pnpm-error.log
